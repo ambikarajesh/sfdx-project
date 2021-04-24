@@ -1,0 +1,8 @@
+<template>
+    <template iterator:item={comments}>
+        <div key={item.value.name}>
+            <p>{item.value.name}</p>
+            <p>{item.value.message}</p>
+        </div>
+    </template>
+</template>
